@@ -10,7 +10,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        colortext: "var(--colortext)"
+        colortext: "var(--colortext)",
+        colorsearch: "var(--colorsearch)",
+      },
+      fontFamily: {
+        satoshi: ["Satoshi", "sans-serif"],
+      },
+      fontWeight: {
+        black: 900,
+        bold: 700,
+        medium: 500,
+        regular: 400,
+        light: 300,
       },
     },
   },

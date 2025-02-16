@@ -103,9 +103,9 @@ export default function Footer() {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex flex-wrap justify-between gap-8">
           <div className="flex flex-col max-w-xs">
-            <h1 className="h-8 mb-4 text-black font-black text-3xl shadow-2xl ">
+            <a href="#" className="h-8 mb-4 text-4xl font-bold text-black">
               SHOP.CO
-            </h1>
+            </a>
             <p className="text-colortext  text-sm">
               We have clothes that suits your style and <br />
               which you’re proud to wear.From <br />
