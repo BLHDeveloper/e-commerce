@@ -111,6 +111,7 @@ export default function Footer() {
               which you’re proud to wear.From <br />
               women to men.
             </p>
+            
             <div className="mt-8 flex space-x-4">
               {/* Social Icons */}
               {[
