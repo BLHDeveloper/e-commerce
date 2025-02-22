@@ -1,119 +1,110 @@
 export default function HomeFashion() {
   return (
     <>
-      <div className="w-[1440px] h-[663px] max-sm:w-[390px]  max-sm:h-[853px] bg-[#F2F0F1]">
-        <div className=" p-20 max-sm:p-4 flex flex-col bg-[url(../img/3401.jpg)] bg-no-repeat bg-right-top max-sm:bg-center  w-[1440px] h-[663px] max-sm:w-[390px]  max-sm:h-[1750px]">
-          <div
-            data-svg-wrapper
-            className="absolute top-[220px] left-[1255px] max-sm:top-[543px] max-sm:left-[293px]"
+      <div className=" p-20 max-sm:p-4 flex flex-col bg-[url(../img/3401.jpg)] max-sm:bg-[url(../img/image.psd.jpg)]   bg-no-repeat bg-right-top  w-[1440px] h-[663px] bg-[#F2F0F1]  max-sm:w-[390px] max-sm:h-[993px]  max-sm:bg-contain max-sm:bg-bottom">
+        <div
+          data-svg-wrapper
+          className="absolute top-[220px] left-[1255px] max-sm:top-[543px] max-sm:left-[293px]"
+        >
+          <svg
+            width="104"
+            height="104"
+            viewBox="0 0 104 104"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              width="104"
-              height="104"
-              viewBox="0 0 104 104"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M52 0C53.7654 27.955 76.0448 50.2347 104 52C76.0448 53.7654 53.7654 76.0448 52 104C50.2347 76.0448 27.955 53.7654 0 52C27.955 50.2347 50.2347 27.955 52 0Z"
-                fill="black"
-              />
-            </svg>
-          </div>{" "}
-          <div
-            data-svg-wrapper
-            className="absolute top-[431px] left-[750px] max-sm:top-[640px] max-sm:left-[27px]"
+            <path
+              d="M52 0C53.7654 27.955 76.0448 50.2347 104 52C76.0448 53.7654 53.7654 76.0448 52 104C50.2347 76.0448 27.955 53.7654 0 52C27.955 50.2347 50.2347 27.955 52 0Z"
+              fill="black"
+            />
+          </svg>
+        </div>{" "}
+        <div
+          data-svg-wrapper
+          className="absolute top-[431px] left-[750px] max-sm:top-[640px] max-sm:left-[27px]"
+        >
+          <svg
+            width="56"
+            height="56"
+            viewBox="0 0 56 56"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              width="56"
-              height="56"
-              viewBox="0 0 56 56"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M28 0C28.9506 15.0527 40.9472 27.0495 56 28C40.9472 28.9506 28.9506 40.9472 28 56C27.0495 40.9472 15.0527 28.9506 0 28C15.0527 27.0495 27.0495 15.0527 28 0Z"
-                fill="black"
-              />
-            </svg>
+            <path
+              d="M28 0C28.9506 15.0527 40.9472 27.0495 56 28C40.9472 28.9506 28.9506 40.9472 28 56C27.0495 40.9472 15.0527 28.9506 0 28C15.0527 27.0495 27.0495 15.0527 28 0Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <div className="w-[577px] max-sm:w-[315px]  pt-6 text-black text-[64px] font-bold font-['Integral CF'] leading-[64px] max-sm:leading-[34px] max-sm:text-4xl ">
+          FIND CLOTHES THAT MATCHES YOUR STYLE
+        </div>{" "}
+        <div className="pt-4 w-[545px] max-sm:w-[358px]  text-black/60 text-base max-sm:text-sm  font-normal font-['Satoshi'] leading-snug  max-sm:leading-tight">
+          Browse through our diverse range of meticulously crafted garments,
+          designed to bring out your individuality and cater to your sense of
+          style.
+        </div>{" "}
+        <div className="mt-6 w-[210px] max-sm:w-[358px]   h-[52px] px-[54px] py-4 bg-black rounded-[62px] justify-center items-center gap-3 inline-flex overflow-hidden">
+          <div className="text-white text-base font-medium font-['Satoshi']">
+            Shop Now
           </div>
-          <div className="w-[577px] max-sm:w-[315px]  pt-6 text-black text-[64px] font-bold font-['Integral CF'] leading-[64px] max-sm:leading-[34px] max-sm:text-4xl ">
-            FIND CLOTHES THAT MATCHES YOUR STYLE
-          </div>{" "}
-          <div className="pt-4 w-[545px] max-sm:w-[358px]  text-black/60 text-base max-sm:text-sm  font-normal font-['Satoshi'] leading-snug  max-sm:leading-tight">
-            Browse through our diverse range of meticulously crafted garments,
-            designed to bring out your individuality and cater to your sense of
-            style.
-          </div>{" "}
-          <div className="mt-6 w-[210px] max-sm:w-[358px]   h-[52px] px-[54px] py-4 bg-black rounded-[62px] justify-center items-center gap-3 inline-flex overflow-hidden">
-            <div className="text-white text-base font-medium font-['Satoshi']">
-              Shop Now
-            </div>
-          </div>
-          <div className="sm:hidden p-10">
-            <div className="w-[278px] h-[52px] justify-between items-center inline-flex">
-              <div className="flex-col justify-center items-start inline-flex">
-                <div className="text-black text-2xl font-['Satoshi']">
-                  200+
-                </div>
-                <div className="text-black/60 text-xs font-normal font-['Satoshi'] leading-snug">
-                  International Brands
-                </div>
-              </div>
-              <div className="w-[52px] h-[0px]  rotate-90 border border-black/10"></div>
-              <div className="flex-col justify-center items-start inline-flex">
-                <div className="text-black text-2xl  font-['Satoshi']">
-                  2,000+
-                </div>
-                <div className="text-black/60 text-xs font-normal font-['Satoshi'] leading-snug">
-                  High-Quality Products
-                </div>
-              </div>
-            </div>
-            <div className=" flex flex-col items-start pt-10 absolute w-[103px] h-[48px] left-[calc(50%-51.5px)] top-[461px] ">
-              <div className="text-black text-2xl  font-['Satoshi']">
-                30,000+
-              </div>
+        </div>
+        <div className="sm:hidden p-10">
+          <div className="w-[278px] h-[52px] justify-between items-center inline-flex">
+            <div className="flex-col justify-center items-start inline-flex">
+              <div className="text-black text-2xl font-['Satoshi']">200+</div>
               <div className="text-black/60 text-xs font-normal font-['Satoshi'] leading-snug">
-                Happy Customers
-              </div>
-            </div>{" "}
-          </div>
-          <div className="mt-10 h-[74px] justify-start items-center  inline-flex max-sm:hidden">
-            <div className="flex-col justify-start items-start inline-flex">
-              <div className="text-black text-[40px] font-['Satoshi']">
-                200+
-              </div>
-              <div className="text-black/60 text-base font-normal font-['Satoshi'] leading-snug">
                 International Brands
               </div>
             </div>
-            <div className="md:w-[74px] md:h-px rotate-90 border border-black/10"></div>
-            <div className="flex-col justify-start items-start inline-flex">
-              <div className="text-black text-[40px]  font-['Satoshi']">
+            <div className="w-[52px] h-[0px]  rotate-90 border border-black/10"></div>
+            <div className="flex-col justify-center items-start inline-flex">
+              <div className="text-black text-2xl  font-['Satoshi']">
                 2,000+
               </div>
-              <div className="text-black/60 text-base font-normal font-['Satoshi'] leading-snug">
+              <div className="text-black/60 text-xs font-normal font-['Satoshi'] leading-snug">
                 High-Quality Products
               </div>
             </div>
-            <div className="md:w-[74px] md:h-px rotate-90 border border-black/10"></div>
-            <div className="flex-col justify-start items-start inline-flex">
-              <div className="text-black text-[40px]  font-['Satoshi']">
-                30,000+
-              </div>
-              <div className="text-black/60 text-base font-normal font-['Satoshi'] leading-snug">
-                Happy Customers
-              </div>
+          </div>
+          <div className=" flex flex-col items-start pt-10 absolute w-[103px] h-[48px] left-[calc(50%-51.5px)] top-[461px] ">
+            <div className="text-black text-2xl  font-['Satoshi']">30,000+</div>
+            <div className="text-black/60 text-xs font-normal font-['Satoshi'] leading-snug">
+              Happy Customers
+            </div>
+          </div>{" "}
+        </div>
+        <div className="mt-10 h-[74px] justify-start items-center  inline-flex max-sm:hidden">
+          <div className="flex-col justify-start items-start inline-flex">
+            <div className="text-black text-[40px] font-['Satoshi']">200+</div>
+            <div className="text-black/60 text-base font-normal font-['Satoshi'] leading-snug">
+              International Brands
+            </div>
+          </div>
+          <div className="md:w-[74px] md:h-px rotate-90 border border-black/10"></div>
+          <div className="flex-col justify-start items-start inline-flex">
+            <div className="text-black text-[40px]  font-['Satoshi']">
+              2,000+
+            </div>
+            <div className="text-black/60 text-base font-normal font-['Satoshi'] leading-snug">
+              High-Quality Products
+            </div>
+          </div>
+          <div className="md:w-[74px] md:h-px rotate-90 border border-black/10"></div>
+          <div className="flex-col justify-start items-start inline-flex">
+            <div className="text-black text-[40px]  font-['Satoshi']">
+              30,000+
+            </div>
+            <div className="text-black/60 text-base font-normal font-['Satoshi'] leading-snug">
+              Happy Customers
             </div>
           </div>
         </div>
       </div>
-      <div className="flex justify-around items-center   w-[1440px] h-[122px] bg-black">
+      <div className="flex justify-around max-sm:flex-wrap items-center w-[1440px] h-[122px] max-sm:w-[390px] max-sm:h-[146px] bg-black">
         <div data-svg-wrapper>
           <svg
-            width="167"
-            height="34"
+            className="w-[167px] h-[34px] max-sm:w-[138px] max-sm:h-[23px]"
             viewBox="0 0 167 34"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -128,8 +119,7 @@ export default function HomeFashion() {
         </div>
         <div data-svg-wrapper className="relative">
           <svg
-            width="92"
-            height="38"
+            className="w-[92px] h-[38px] max-sm:w-[63px] max-sm:h-[26px]"
             viewBox="0 0 92 38"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -154,8 +144,7 @@ export default function HomeFashion() {
         </div>
         <div data-svg-wrapper className="relative">
           <svg
-            width="157"
-            height="36"
+            className="w-[157px] h-[36px] max-sm:w-[109px] max-sm:h-[25px]"
             viewBox="0 0 157 36"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +169,7 @@ export default function HomeFashion() {
         </div>
         <div data-svg-wrapper className="relative">
           <svg
-            width="195"
-            height="32"
+            className="w-[195px] h-[32px] max-sm:w-[127px] max-sm:h-[21px]"
             viewBox="0 0 195 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -211,8 +199,7 @@ export default function HomeFashion() {
         </div>
         <div data-svg-wrapper>
           <svg
-            width="208"
-            height="34"
+            className="w-[208px] h-[34px] max-sm:w-[160px] max-sm:h-[30px]"
             viewBox="0 0 208 34"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -229,5 +216,8 @@ export default function HomeFashion() {
     </>
   );
 }
+
+
+
 
 

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/Tshirt.webp",
+    "title": "T-shirt with Tape Details",
+    "rating": 4.5,
+    "price": 120,
+    "oldPrice": null,
+    "discount": null
+  },
+  {
+    "id": 2,
+    "image": "https://image.hm.com/assets/hm/3a/16/3a165bf47dc08942d9f634b167e5554cc145904a.jpg?imwidth=1536",
+    "title": "Skinny Fit Jeans",
+    "rating": 3.5,
+    "price": 240,
+    "oldPrice": 260,
+    "discount": "20%"
+  },
+  {
+    "id": 3,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/image-9.webp",
+    "title": "Checkered Shirt",
+    "rating": 4.5,
+    "price": 180,
+    "oldPrice": null,
+    "discount": null
+  },
+  {
+    "id": 4,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/image-10.webp",
+    "title": "Sleeve Striped T-chirt",
+    "rating": 4.5,
+    "price": 130,
+    "oldPrice": 160,
+    "discount": "-30%"
+  },
+  {
+    "id": 5,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/image-10.webp",
+    "title": "Sleeve Striped T-chirt",
+    "rating": 4.5,
+    "price": 130,
+    "oldPrice": 160,
+    "discount": "-30%"
+  },
+  {
+    "id": 6,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/Tshirt.webp",
+    "title": "T-shirt with Tape Details",
+    "rating": 4.5,
+    "price": 120,
+    "oldPrice": null,
+    "discount": null
+  },
+  {
+    "id": 7,
+    "image": "https://image.hm.com/assets/hm/3a/16/3a165bf47dc08942d9f634b167e5554cc145904a.jpg?imwidth=1536",
+    "title": "Skinny Fit Jeans",
+    "rating": 3.5,
+    "price": 240,
+    "oldPrice": 260,
+    "discount": "20%"
+  },
+  {
+    "id": 8,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/image-9.webp",
+    "title": "Checkered Shirt",
+    "rating": 4.5,
+    "price": 180,
+    "oldPrice": null,
+    "discount": null
+  },
+  {
+    "id": 9,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/image-10.webp",
+    "title": "Sleeve Striped T-chirt",
+    "rating": 4.5,
+    "price": 130,
+    "oldPrice": 160,
+    "discount": "-30%"
+  },
+  {
+    "id": 10,
+    "image": "https://elegantsparkling.com/wp-content/uploads/2024/10/image-10.webp",
+    "title": "Sleeve Striped T-chirt",
+    "rating": 4.5,
+    "price": 130,
+    "oldPrice": 160,
+    "discount": "-30%"
+  }
+]

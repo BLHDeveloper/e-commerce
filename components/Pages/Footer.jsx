@@ -161,7 +161,7 @@ export default function Footer() {
             </div>
           </div>
           {/* Links Section */}
-          <div className="flex flex-wrap gap-16">
+          <div className="flex flex-wrap gap-16 max-sm:gap-8">
             {[
               {
                 title: "COMPANY",
