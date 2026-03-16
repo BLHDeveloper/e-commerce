@@ -33,17 +33,31 @@
   font-style: normal;
 }
 
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --colortext : rgba(0, 0, 0, 0.6);
-  --colorsearch : rgba(0, 0, 0, 0.4);
+  --colortext: rgba(0, 0, 0, 0.6);
+  --colorsearch: rgba(0, 0, 0, 0.4);
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
+  font-family: 'Satoshi', sans-serif;
   color: var(--foreground);
-  background: white;
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for horizontal scroll containers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
