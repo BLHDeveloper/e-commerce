@@ -4,7 +4,7 @@ export default function HomeFashion() {
       {/* Hero Section */}
       <div className="relative bg-[#F2F0F1] overflow-hidden">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center lg:items-start py-10 sm:py-16 lg:py-20 gap-8">
+          <div className="flex flex-col lg:flex-row items-center lg:items-stretch py-10 sm:py-16 lg:py-20 gap-8">
             {/* Left: Text Content */}
             <div className="flex-1 max-w-xl z-10">
               <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-black leading-tight lg:leading-[64px] text-black font-['Integral_CF']">
@@ -38,16 +38,16 @@ export default function HomeFashion() {
             </div>
 
             {/* Right: Hero Image */}
-            <div className="relative flex-1 w-full lg:w-auto min-h-[300px] sm:min-h-[400px] lg:min-h-[500px]">
+            <div className="relative flex-1 w-full lg:w-auto min-h-[300px] sm:min-h-[400px] lg:min-h-0">
               <img
-                src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&h=1000&fit=crop&crop=top"
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=1000&fit=crop&crop=top"
                 alt="Fashion model showcasing latest collection"
-                className="hidden sm:block w-full h-full object-cover object-top rounded-xl lg:rounded-none"
+                className="hidden sm:block absolute inset-0 w-full h-full object-cover object-top rounded-2xl"
               />
               <img
-                src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=500&h=600&fit=crop&crop=top"
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&h=600&fit=crop&crop=top"
                 alt="Fashion model showcasing latest collection"
-                className="block sm:hidden w-full h-full object-cover object-top rounded-2xl"
+                className="block sm:hidden absolute inset-0 w-full h-full object-cover object-top rounded-2xl"
               />
               {/* Decorative star - large */}
               <svg className="absolute top-8 right-4 lg:top-16 lg:right-8 w-12 h-12 lg:w-[104px] lg:h-[104px]" viewBox="0 0 104 104" fill="none" aria-hidden="true">
